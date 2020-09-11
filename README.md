@@ -1,6 +1,8 @@
 # Fixed-Windows-10
 Restoring Windows 10 to its former glory
+
 0. Download all files from this repo.
+
 1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/ or the one from here:
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
 
