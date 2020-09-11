@@ -15,8 +15,7 @@ Restoring Windows 10 to its former glory
 # 3.If something does not work in graphical interface use the script below by running CMD as Admin:
 
 * slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
-
-* slmgr /skms kms.digiboy.ir
+* slmgr /skms  kms.moeclub.org
 * slmgr /ato
 
 4.Install the Media Feature Pack:
