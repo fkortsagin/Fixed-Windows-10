@@ -15,9 +15,12 @@ Restoring Windows 10 to its former glory
 # 3.If something does not work in graphical interface use the script below by running CMD as Admin:
 
 * slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
-
-* slmgr /skms kms.digiboy.ir
+* slmgr /skms kms.moeclub.org
 * slmgr /ato
+
+# KMS Server List:
+* kms.srv.crsoo.com
+* kms.moeclub.org
 
 4.Update Windows 10 LTSC
 
@@ -29,25 +32,26 @@ Restoring Windows 10 to its former glory
 * https://linuxmint.com/edition.php?id=254
 
 7.Go to Control Panel>Programs>Turn Windows Features on or Off and install .NET Framework 3.5 and DirectPlay
+
 8.Run the amelioration_2019-12-14.bat as Administrator
 
 * Once opened, run option 1 Pre-Amelioration from the main menu. In Drive specify C:\ This may take several minutes to complete.
 
 * The script will likely generate errors; this is fine, it is just unable to remove some of the built-in apps with PowerShell.
 
-8.Boot into Linux and mount your Windows drive.
+9.Boot into Linux and mount your Windows drive.
 
-9.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive(Windows), and execute it:
+10.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive(Windows), and execute it:
 
 * sudo ./ameliorate_1903_2020-01-18.sh
 
-10.Once the script has finished, boot back into Windows to continue.
+11.Once the script has finished, boot back into Windows to continue.
 
-11.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
+12.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
 # Due to the deletion process, at this stage, Windows 10 lacks even basic software, such as a web browser or media player. 
 # This process installs the chocolatey package manager and a selection of basic sensible software.
 
-12.Run option 2 Post-Amelioration from the main menu.
+13.Run option 2 Post-Amelioration from the main menu.
 # Optional 
 * While most of these configurations are optional, we have tried to align classic-shell with sensible theming. These are the settings applied in the AME release.
 * Enable: Show all settings, go to the Skin tab:
