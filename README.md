@@ -1,4 +1,4 @@
-# Fixed-Windows-10
+6# Fixed-Windows-10
 Restoring Windows 10 to its former glory
 
 0.Download all files from this repo.
@@ -15,32 +15,43 @@ Restoring Windows 10 to its former glory
 # 3.If something does not work in graphical interface use the script below by running CMD as Admin:
 
 * slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
-* slmgr /skms kms.moeclub.org
+
+* slmgr /skms kms.digiboy.ir
 * slmgr /ato
 
-# KMS Server List:
-* kms.srv.crsoo.com
-* kms.moeclub.org
+4.Install the Media Feature Pack:
 
-4.Update Windows 10 LTSC
+* https://www.microsoft.com/en-us/software-download/mediafeaturepack
 
+5.Update Windows 10 LTSC
+
+* Remove all tiles from the Start Menu and all links except for Windows Explorer from the taskbar. 
 * Set the taskbar to never combine and set the systemtray to show all icons.
 
-5.Go to Control Panel>Programs>Turn Windows Features on or Off and install .NET Framework 3.5 and DirectPlay
+6.Download any Linux Ubuntu/Linux Mint will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
+* https://ubuntu.com/download/desktop
+* https://www.linuxmint.com/download.php
 
-6.Run the amelioration_2019-12-14.bat as Administrator
+7.Run the amelioration_2019-12-14.bat as Administrator
 
-* Once opened, run option 1 Pre-Amelioration from the main menu. In Drive specify C:\ This may take several minutes to complete.
+* Once opened, run option 1 Pre-Amelioration from the main menu. This may take several minutes to complete.
 
 * The script will likely generate errors; this is fine, it is just unable to remove some of the built-in apps with PowerShell.
 
-7.Boot into Linux and mount your Windows drive.
+8.Boot into Linux and mount your Windows drive.
 
-8.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
+9.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
+* sudo chmod +x ameliorate_1903_2020-01-18.sh
+* sudo ./ameliorate_1903_2020-01-18.sh
+# If these commands dont work try doing the installation line by line from script using a text editor.
+
+10.Once the script has finished, boot back into Windows to continue.
+
+11.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
 # Due to the deletion process, at this stage, Windows 10 lacks even basic software, such as a web browser or media player. 
 # This process installs the chocolatey package manager and a selection of basic sensible software.
 
-9.Run option 2 Post-Amelioration from the main menu.
+12.Run option 2 Post-Amelioration from the main menu.
 # Optional 
 * While most of these configurations are optional, we have tried to align classic-shell with sensible theming. These are the settings applied in the AME release.
 * Enable: Show all settings, go to the Skin tab:
