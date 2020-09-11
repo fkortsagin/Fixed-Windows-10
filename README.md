@@ -1,7 +1,7 @@
 # Fixed-Windows-10
 Restoring Windows 10 to its former glory
 
-1.Download and install Windows 10 LTSC build using Rufus:
+1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/:
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
 
 2.Activate using a generic Windows key
@@ -26,7 +26,7 @@ Restoring Windows 10 to its former glory
 * Remove all tiles from the Start Menu and all links except for Windows Explorer from the taskbar. 
 * Set the taskbar to never combine and set the systemtray to show all icons.
 
-6.Download any Linux Ubuntu/Linux Mint will suffice for a live USB Creation its only needed for one script:
+6.Download any Linux Ubuntu/Linux Mint will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
 * https://ubuntu.com/download/desktop
 * https://www.linuxmint.com/download.php
 
