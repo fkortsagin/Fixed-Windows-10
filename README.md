@@ -19,28 +19,25 @@ Restoring Windows 10 to its former glory
 * slmgr /skms kms.digiboy.ir
 * slmgr /ato
 
-4.Install the Media Feature Pack:
-
-* https://www.microsoft.com/en-us/software-download/mediafeaturepack
-
-5.Update Windows 10 LTSC
+4.Update Windows 10 LTSC
 
 * Remove all tiles from the Start Menu and all links except for Windows Explorer from the taskbar. 
 * Set the taskbar to never combine and set the systemtray to show all icons.
 
-6.Download any Linux Ubuntu/Linux Mint will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
-* https://ubuntu.com/download/desktop
-* https://www.linuxmint.com/download.php
+6.Download any Linux Ubuntu 18.04/Linux Mint 19 will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
+* http://releases.ubuntu.com/18.04/
+* https://linuxmint.com/edition.php?id=254
 
-7.Run the amelioration_2019-12-14.bat as Administrator
+7.Go to Control Panel>Programs>Turn Windows Features on or Off and install .NET Framework 3.5 and DirectPlay
+8.Run the amelioration_2019-12-14.bat as Administrator
 
-* Once opened, run option 1 Pre-Amelioration from the main menu. This may take several minutes to complete.
+* Once opened, run option 1 Pre-Amelioration from the main menu. In Drive specify C:\ This may take several minutes to complete.
 
 * The script will likely generate errors; this is fine, it is just unable to remove some of the built-in apps with PowerShell.
 
 8.Boot into Linux and mount your Windows drive.
 
-9.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive, and execute it:
+9.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive(Windows), and execute it:
 
 * sudo ./ameliorate_1903_2020-01-18.sh
 
