@@ -1,4 +1,4 @@
-6# Fixed-Windows-10
+# Windows-10-Fixed
 Restoring Windows 10 to its former glory
 
 0.Download all files from this repo.
@@ -18,31 +18,29 @@ Restoring Windows 10 to its former glory
 * slmgr /skms  kms.moeclub.org
 * slmgr /ato
 
-4.Install the Media Feature Pack:
-
-* https://www.microsoft.com/en-us/software-download/mediafeaturepack
-
-5.Update Windows 10 LTSC
+4.Update Windows 10 LTSC
 
 * Remove all tiles from the Start Menu and all links except for Windows Explorer from the taskbar. 
 * Set the taskbar to never combine and set the systemtray to show all icons.
 
-6.Download any Linux Ubuntu/Linux Mint will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
+5.Download any Linux Ubuntu/Linux Mint will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
 * https://ubuntu.com/download/desktop
 * https://www.linuxmint.com/download.php
 
-7.Run the amelioration_2019-12-14.bat as Administrator
+6.Run the amelioration_2019-12-14.bat as Administrator
 
 * Once opened, run option 1 Pre-Amelioration from the main menu. This may take several minutes to complete.
 
 * The script will likely generate errors; this is fine, it is just unable to remove some of the built-in apps with PowerShell.
 
-8.Boot into Linux and mount your Windows drive.
+7.Install Linux and boot into Linux Mint or Ubuntu and mount your Windows drive.
 
-9.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
-* sudo chmod +x ameliorate_1903_2020-01-18.sh
+8.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
+* sudo chmod a+x ameliorate_1903_2020-01-18.sh
+* sudo sh ./ameliorate_1903_2020-01-18.sh
+* sudo bash./ameliorate_1903_2020-01-18.sh
 * sudo ./ameliorate_1903_2020-01-18.sh
-# If these commands dont work try doing the installation line by line from script using a text editor.
+# If these commands dont work try doing the installation line by line from script using a built in text editor.
 
 10.Once the script has finished, boot back into Windows to continue.
 
