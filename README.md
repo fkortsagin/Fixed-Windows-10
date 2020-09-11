@@ -1,7 +1,7 @@
 # Fixed-Windows-10
 Restoring Windows 10 to its former glory
-
-1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/:
+0. Download all files from this repo.
+1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/ or the one from here:
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
 
 2.Activate using a generic Windows key
@@ -39,9 +39,10 @@ Restoring Windows 10 to its former glory
 8.Boot into Linux and mount your Windows drive.
 
 9.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive, and execute it:
+
 * sudo ./ameliorate_1903_2020-01-18.sh
 
-10.Once the script has finished, boot back into Windows to continue.
+10. Once the script has finished, boot back into Windows to continue.
 
 11. Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
 # Due to the deletion process, at this stage, Windows 10 lacks even basic software, such as a web browser or media player. 
