@@ -24,34 +24,23 @@ Restoring Windows 10 to its former glory
 
 4.Update Windows 10 LTSC
 
-* Remove all tiles from the Start Menu and all links except for Windows Explorer from the taskbar. 
 * Set the taskbar to never combine and set the systemtray to show all icons.
 
-6.Download any Linux Ubuntu 18.04/Linux Mint 19 will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
-* http://releases.ubuntu.com/18.04/
-* https://linuxmint.com/edition.php?id=254
+5.Go to Control Panel>Programs>Turn Windows Features on or Off and install .NET Framework 3.5 and DirectPlay
 
-7.Go to Control Panel>Programs>Turn Windows Features on or Off and install .NET Framework 3.5 and DirectPlay
-
-8.Run the amelioration_2019-12-14.bat as Administrator
+6.Run the amelioration_2019-12-14.bat as Administrator
 
 * Once opened, run option 1 Pre-Amelioration from the main menu. In Drive specify C:\ This may take several minutes to complete.
 
 * The script will likely generate errors; this is fine, it is just unable to remove some of the built-in apps with PowerShell.
 
-9.Boot into Linux and mount your Windows drive.
+7.Boot into Linux and mount your Windows drive.
 
-10.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive(Windows), and execute it:
-
-* sudo ./ameliorate_1903_2020-01-18.sh
-
-11.Once the script has finished, boot back into Windows to continue.
-
-12.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
+8.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
 # Due to the deletion process, at this stage, Windows 10 lacks even basic software, such as a web browser or media player. 
 # This process installs the chocolatey package manager and a selection of basic sensible software.
 
-13.Run option 2 Post-Amelioration from the main menu.
+9.Run option 2 Post-Amelioration from the main menu.
 # Optional 
 * While most of these configurations are optional, we have tried to align classic-shell with sensible theming. These are the settings applied in the AME release.
 * Enable: Show all settings, go to the Skin tab:
