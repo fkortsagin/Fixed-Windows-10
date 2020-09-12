@@ -98,6 +98,11 @@ https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 # In case it "magically disappears":
 * https://drive.google.com/drive/folders/1_IW3zKZ1X-pHgWGeMyF0DzmqthIZOyYa?usp=sharing
 
+# If you run into NET 3.5 Framework installation problem later on.Here are the steps:
+* Boot up your Windows 10 media any ISO will do including the one provided here to drive D for example.
+* Run cmd as Admin 
+* DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs
+
 Thats it we are good to go.
 
 For more customization options check the guide that inspired this project:
