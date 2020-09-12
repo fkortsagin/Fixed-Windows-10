@@ -62,20 +62,24 @@ Restoring Windows 10 to its former glory
 * Set Max recent programs to 15 (or any other number you'd like)
 * Uncheck Enable hybrid shutdown for good measure
 * Go to the Menu Look tab:
-
 * Check Override glass color (this is optional)
 * Set Menu glass color to 000000 (or any other color you'd like
 
 13.Changing Windows 10 Wallpaper via CLI run cmd as Admin:
+
 * takeown /f C:\Windows\Web\Wallpaper\Windows\img0.jpg
 * icacls C:\Windows\Web\Wallpaper\Windows\img0.jpg /reset
 * copy <your wallpaper> C:\Windows\Web\Wallpaper\Windows\img0.jpg
 * After this, reboot, and go to Settings => Personalization and select your wallpaper.
+
 14.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
+
 * Run the latest executable with administrator privileges
 * Uncheck the Powershell and cmd.exe boxes
 * Click Harden!
 * Click OK when finished
+
 Thats it we are good to go.
+
 For more customization options check:
 https://ameliorated.info/documentation.html#install
