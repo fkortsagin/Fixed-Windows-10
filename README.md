@@ -79,6 +79,10 @@ Restoring Windows 10 to its former glory
 * Click Harden!
 * Click OK when finished
 
+15. Remove Windows Activation key since its no longer of any use cmd as admin:
+* slmgr /upk
+* slmgr /cpky
+
 Thats it we are good to go.
 
 For more customization options check:
