@@ -38,9 +38,7 @@ Restoring Windows 10 to its former glory
 8.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
 * sudo apt-get update
 * sudo apt-get install dos2unix
-* sudo chmod a+x ameliorate_1903_2020-01-18.sh
-* sudo sh ./ameliorate_1903_2020-01-18.sh
-* sudo bash./ameliorate_1903_2020-01-18.sh
+* dos2unix ./ameliorate_1903_2020-01-18.sh
 * sudo ./ameliorate_1903_2020-01-18.sh
 # If these commands dont work try doing the installation line by line from script using a built in text editor.
 
@@ -68,6 +66,16 @@ Restoring Windows 10 to its former glory
 * Check Override glass color (this is optional)
 * Set Menu glass color to 000000 (or any other color you'd like
 
+13.Changing Windows 10 Wallpaper via CLI run cmd as Admin:
+* takeown /f C:\Windows\Web\Wallpaper\Windows\img0.jpg
+* icacls C:\Windows\Web\Wallpaper\Windows\img0.jpg /reset
+* copy <your wallpaper> C:\Windows\Web\Wallpaper\Windows\img0.jpg
+* After this, reboot, and go to Settings => Personalization and select your wallpaper.
+14.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
+* Run the latest executable with administrator privileges
+* Uncheck the Powershell and cmd.exe boxes
+* Click Harden!
+* Click OK when finished
 Thats it we are good to go.
 For more customization options check:
-https://ameliorated.info/documentation.html#ame_pre
+https://ameliorated.info/documentation.html#install
