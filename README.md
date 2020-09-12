@@ -7,7 +7,11 @@
 * https://linuxmint.com/download.php
 * https://getsol.us/home/
 # Don't use this tutorial in a work environment its meant for personal/testing in a VM environment uses only!
-# Use this tutorial at your own risk! If something fails or crashes,try again!
+# Use this tutorial at your own risk! If something fails or crashes,try and try again!
+# It is the Windows 10 we want,not the Windows 10 we get!
+# This project falls under GPL license,no monetary gain was intended,so it is free to use,made with love for good old Windows 7/Windows XP days
+# Security updates will need to be installed manually if at all.
+# Use at your own risk and may the force be with you!
 
 0.Download all files from this repo.
 
@@ -15,7 +19,7 @@
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
 
 2.Activate using a generic Windows key
-# KEYS:
+# GENERIC KMS KEYS FROM https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys:
 * Windows 10 Enterprise LTSC 2019	
 * M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * Windows 10 Enterprise N LTSC 2019 
