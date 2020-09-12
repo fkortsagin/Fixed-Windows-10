@@ -29,6 +29,7 @@
 
 4.Update Windows 10 LTSC
 * Go to Control Panel>Turn Windows Features on or Off>Enable Direct Play
+* Go to Control Panel>Turn Windows Features on or Off>Enable .NET Framework 3.5
 * Remove all links except for Windows Explorer from the taskbar. 
 * Set the taskbar to never combine and set the systemtray in notification settings to show all icons.
 
