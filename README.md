@@ -36,6 +36,8 @@ Restoring Windows 10 to its former glory
 7.Install Linux and boot into Linux Mint or Ubuntu and mount your Windows drive.
 
 8.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
+* sudo apt-get update
+* sudo apt-get install dos2unix
 * sudo chmod a+x ameliorate_1903_2020-01-18.sh
 * sudo sh ./ameliorate_1903_2020-01-18.sh
 * sudo bash./ameliorate_1903_2020-01-18.sh
