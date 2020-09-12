@@ -1,24 +1,23 @@
 #!/bin/bash
-
 clear
-echo "                 +---------------+"
-echo "                 � !!!WARNING!!! �"
-echo "+---------------------------------------------------+"
-echo "� This script comes without any warranty.           �"
-echo "� If your computer no longer boots, explodes, or    �"
-echo "� divides by zero, you are the only one responsible �"
-echo "�???????????????????????????????????????????????????�"
-echo "� This script only works on Debian based distros.   �"
-echo "� An Ubuntu 16.04/18.04 Live ISO is recommended.    �"
-echo "+---------------------------------------------------+"
+echo "                 ╔═══════════════╗"
+echo "                 ║ !!!WARNING!!! ║"
+echo "╔════════════════╩═══════════════╩══════════════════╗"
+echo "║ This script comes without any warranty.           ║"
+echo "║ If your computer no longer boots, explodes, or    ║"
+echo "║ divides by zero, you are the only one responsible ║"
+echo "╟╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╢"
+echo "║ This script only works on Debian based distros.   ║"
+echo "║ An Ubuntu 16.04/18.04 Live ISO is recommended.    ║"
+echo "╚═══════════════════════════════════════════════════╝"
 echo ""
 read -p "To continue press [ENTER], or Ctrl-C to exit"
 
 title_bar() {
 	clear
-	echo "+---------------------------------------------------+"
-	echo "� AMEliorate Windows 10 1903               20.03.06 �"
-	echo "+---------------------------------------------------+"
+	echo "╔═══════════════════════════════════════════════════╗"
+	echo "║ AMEliorate Windows 10 1903               20.03.06 ║"
+	echo "╚═══════════════════════════════════════════════════╝"
 }
 
 # prompts to install git and 7zip if not already installed
