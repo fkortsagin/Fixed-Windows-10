@@ -1,7 +1,7 @@
 # Windows-10-Fixed
 # Restoring Windows 10 to its former glory!
 # NB!Achtung! Attention!
-# The creator of this tutorial is not responsible if something will go wrong during install,but it is better than having Candy Crush and other bloat and telemetry hogging up system resources and sending data to third-parties without your consent LOL!
+# The creator of this tutorial is not responsible if something will go wrong during install,but it is better than having Candy Crush and other bloat and telemetry hogging up system resourcesLOL!
 # This tutorial is meant for enthusiasts,tinkerers and gamers who want the most out of their system and are not affraid to take the risk of learning some new stuff in the process,it is not meant for old laptops to work properly to play solitaire,for that you can use awesome Linux distributions out there like Linux Mint,Solus or MX Linux! links below:
 * https://mxlinux.org/
 * https://linuxmint.com/download.php
