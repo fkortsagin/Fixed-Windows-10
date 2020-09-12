@@ -69,7 +69,7 @@ Restoring Windows 10 to its former glory
 
 * takeown /f C:\Windows\Web\Wallpaper\Windows\img0.jpg
 * icacls C:\Windows\Web\Wallpaper\Windows\img0.jpg /reset
-* copy <your wallpaper> C:\Windows\Web\Wallpaper\Windows\img0.jpg
+* copy your wallpaper C:\Windows\Web\Wallpaper\Windows\img0.jpg
 * After this, reboot, and go to Settings => Personalization and select your wallpaper.
 
 14.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
