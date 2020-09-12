@@ -66,14 +66,15 @@ Restoring Windows 10 to its former glory
 * Set Menu glass color to 000000 (or any other color you'd like
 
 13.Changing Windows 10 Wallpaper via CLI run cmd as Admin:
-
 * takeown /f C:\Windows\Web\Wallpaper\Windows\img0.jpg
 * icacls C:\Windows\Web\Wallpaper\Windows\img0.jpg /reset
 * copy your wallpaper C:\Windows\Web\Wallpaper\Windows\img0.jpg
 * After this, reboot, and go to Settings => Personalization and select your wallpaper.
-Or
+# Or
+
 * Start menu>run>gpedit.msc>User Configuration> Administrative Templates>Desktop>Desktop>Desktop Wallpaper>Enabled with you C:\Users\Pictures\picture.jpg
 * reboot
+
 14.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
 
 * Run the latest executable with administrator privileges
