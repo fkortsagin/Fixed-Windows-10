@@ -1,5 +1,13 @@
 # Windows-10-Fixed
-Restoring Windows 10 to its former glory
+# Restoring Windows 10 to its former glory!
+# NB!Achtung! Attention!
+# The creator of this tutorial is not responsible if something will go wrong during install,but it is better than having Candy Crush and other bloat and telemetry hogging up system resources and sending data to third-parties without your concent LOL!
+# This tutorial is meant for enthusiasts,tinkerers and gamers who want the most out of their system and are not affraid to take the risk of learning some new stuff in the process,it is not meant for old laptops to work properly to play solitaire,for that you can use awesome Linux distributions out there like Linux Mint,Solus or MX Linux! links below:
+* https://mxlinux.org/
+* https://linuxmint.com/download.php
+* https://getsol.us/home/
+# Don't use this tutorial in a work environment its meant for personal/testing in a VM environment uses only!
+# Use this tutorial at your own risk! If something fails or crashes,try again!
 
 0.Download all files from this repo.
 
@@ -12,6 +20,7 @@ Restoring Windows 10 to its former glory
 * M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * Windows 10 Enterprise N LTSC 2019 
 * 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+
 # 3.If something does not work in graphical interface use the script below by running CMD as Admin:
 
 * slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
@@ -19,9 +28,9 @@ Restoring Windows 10 to its former glory
 * slmgr /ato
 
 4.Update Windows 10 LTSC
-
-* Remove all tiles from the Start Menu and all links except for Windows Explorer from the taskbar. 
-* Set the taskbar to never combine and set the systemtray to show all icons.
+* Go to Control Panel>Turn Windows Features on or Off>Enable Direct Play
+* Remove all links except for Windows Explorer from the taskbar. 
+* Set the taskbar to never combine and set the systemtray in notification settings to show all icons.
 
 5.Download any Linux Ubuntu/Linux Mint will suffice for a Live USB Creation its only needed for one script,use Rufus https://rufus.ie/ for creating a bootable USB:
 * https://ubuntu.com/download/desktop
@@ -65,28 +74,33 @@ Restoring Windows 10 to its former glory
 * Check Override glass color (this is optional)
 * Set Menu glass color to 000000 (or any other color you'd like
 
-13.Changing Windows 10 Wallpaper via CLI run cmd as Admin:
-* takeown /f C:\Windows\Web\Wallpaper\Windows\img0.jpg
-* icacls C:\Windows\Web\Wallpaper\Windows\img0.jpg /reset
-* copy your wallpaper C:\Windows\Web\Wallpaper\Windows\img0.jpg
-* After this, reboot, and go to Settings => Personalization and select your wallpaper.
-# Or
-
-* Start menu>run>gpedit.msc>User Configuration> Administrative Templates>Desktop>Desktop>Desktop Wallpaper>Enabled with you C:\Users\Pictures\picture.jpg
-* reboot
-
-14.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
-
-* Run the latest executable with administrator privileges
-* Uncheck the Powershell and cmd.exe boxes
-* Click Harden!
-* Click OK when finished
-
-15. Remove Windows Activation key since its no longer of any use cmd as admin:
+13. Remove Windows Activation key since its no longer of any use cmd as admin:
 * slmgr /upk
 * slmgr /cpky
 
+14.Changing Windows 10 Wallpaper via CLI run cmd as Admin:
+* Start menu>run>gpedit.msc>User Configuration> Administrative Templates>Desktop>Desktop>Desktop Wallpaper>Enabled with you C:\Users\Pictures\picture.jpg
+* reboot
+
+15.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
+* Run the latest executable with administrator privileges
+* Uncheck the Cmd.exe box (you can leave powershell as well if you like)
+* Click Harden!
+* Click OK when finished
+* Disable UAC after that or the annoying prompts :(
+
+16.For Clean driver install check:
+https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
+
+17.Optimal NVIDIA Driver with Control Panel
+* https://www.nvidia.com/download/driverResults.aspx/159677/en-us
+# In case it "magically disappears":
+* https://drive.google.com/drive/folders/1_IW3zKZ1X-pHgWGeMyF0DzmqthIZOyYa?usp=sharing
+
 Thats it we are good to go.
 
-For more customization options check:
+For more customization options check the guide that inspired this project:
 https://ameliorated.info/documentation.html#install
+
+Thanks!
+gimalaji_blake
