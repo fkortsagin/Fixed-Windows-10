@@ -111,9 +111,12 @@ https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 * Run cmd as Admin 
 * DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs
 
-Thats it we are good to go.
+# 21.Optional in case you need to download torrent files and magnet links use qbittorent,its bloat and PUP free:
+https://www.qbittorrent.org/
 
-For more customization options check the guide that inspired this project:
+Thats it we are good to go.Enjoy
+
+For other customization options check the guide that inspired this project:
 https://ameliorated.info/documentation.html#install
 
 Thanks!
