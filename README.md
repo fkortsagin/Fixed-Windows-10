@@ -112,7 +112,7 @@ https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 * Run cmd as Admin 
 * DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs
 
-# 21.Optional in case you need to download torrent files and magnet links use qbittorent,its bloat and PUP free:
+# 21.Optional in case you need to download torrent files and magnet links use qbittorrent,its bloat and PUP free:
 https://www.qbittorrent.org/
 
 Thats it we are good to go.Enjoy
