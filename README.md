@@ -20,18 +20,20 @@
 
 2.Activate using a generic Windows key
 # GENERIC KMS KEYS FROM https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys:
+
 * Windows 10 Enterprise LTSC 2019	
 * M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * Windows 10 Enterprise N LTSC 2019 
 * 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
 
-# 3.If something does not work in graphical interface use the script below by running CMD as Admin:
+# 3.Use the commands below by running CMD as Admin to activate:
 
 * slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * slmgr /skms  kms.moeclub.org
 * slmgr /ato
 
 4.Update Windows 10 LTSC
+
 * Go to Control Panel>Turn Windows Features on or Off>Enable Direct Play
 * Go to Control Panel>Turn Windows Features on or Off>Enable .NET Framework 3.5
 * Remove all links except for Windows Explorer from the taskbar. 
@@ -49,12 +51,11 @@
 
 7.Install Linux and boot into Linux Mint or Ubuntu and mount your Windows drive.
 
-8.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
+# 8.Place ameliorate_1903_2020-01-18.sh in the root directory of your Windows drive (Windows), and execute it:
 * sudo apt-get update
 * sudo apt-get install dos2unix
 * dos2unix ./ameliorate_1903_2020-01-18.sh
 * sudo ./ameliorate_1903_2020-01-18.sh
-# If these commands dont work try doing the installation line by line from script using a built in text editor.
 
 10.Once the script has finished, boot back into Windows to continue.
 
