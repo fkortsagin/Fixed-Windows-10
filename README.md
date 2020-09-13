@@ -79,31 +79,35 @@
 * Check Override glass color (this is optional)
 * Set Menu glass color to 000000 (or any other color you'd like
 
-13. Remove Windows Activation key since its no longer of any use cmd as admin:
+13. Remove Windows Activation key since its no longer of any use cmd as Admin:
 * slmgr /upk
 * slmgr /cpky
 
-14.Changing Windows 10 Wallpaper via CLI run cmd as Admin:
+14.Remove Thunderbird through Control Panel>Programs its not needed
+
+15.Go to Control Panel>Power Options and Set to Ultimate Performance.
+
+16.Changing Windows 10 Wallpaper via gpedit:
 * Start menu>run>gpedit.msc>User Configuration> Administrative Templates>Desktop>Desktop>Desktop Wallpaper>Enabled with you C:\Users\Pictures\picture.jpg
 * reboot
 
-15.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
+17.Use Harden Tools from https://github.com/securitywithoutborders/hardentools:
 * Run the latest executable with administrator privileges
 * Uncheck the Cmd.exe box (you can leave powershell as well if you like)
 * Click Harden!
 * Click OK when finished
 * Disable UAC after that or the annoying prompts :(
 
-16.For Clean driver install check:
+18.For Clean driver install check:
 https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 
-17.Optimal NVIDIA Driver with Control Panel
+# 19.FOR NVIDIA USERS Optimal NVIDIA Driver with Control Panel(you can use latest as well,but with GeForce Experience bloatware)
 * https://www.nvidia.com/download/driverResults.aspx/159677/en-us
 # In case it "magically disappears":
 * https://drive.google.com/drive/folders/1_IW3zKZ1X-pHgWGeMyF0DzmqthIZOyYa?usp=sharing
 
-# If you run into NET 3.5 Framework installation problem later on.Here are the steps:
-* Boot up your Windows 10 media any ISO will do including the one provided here to drive D for example.
+# 20 If you run into NET 3.5 Framework installation problem later on.Here are the steps:
+* Input your Windows 10 install media ISO via Windows or via USB to drive D for example.
 * Run cmd as Admin 
 * DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs
 
