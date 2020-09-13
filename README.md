@@ -1,4 +1,4 @@
-# Windows-10-Fixed
+# Windows-10-Reforged
 # Restoring Windows 10 to its former glory!
 # NB!Achtung! Attention!
 # The creator of this tutorial is not responsible if something will go wrong during install,but it is better than having Candy Crush and other bloat and telemetry hogging up system resourcesLOL!
