@@ -112,7 +112,11 @@ https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 * Run cmd as Admin 
 * DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs
 
-# 21.Optional in case you need to download torrent files and magnet links use qbittorrent,its bloat and PUP free:
+21. Remove the annoying Activate Windows Watermark:
+* Start menu>Run
+* HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > WindowsNT > CurrentVersion > SoftwareProtectionPlatform > Activation
+* Find the Manual entry Modify set 1 instead of 0
+# 22.Optional in case you need to download torrent files and magnet links use qbittorrent,its bloat and PUP free:
 https://www.qbittorrent.org/
 
 Thats it we are good to go.Enjoy
