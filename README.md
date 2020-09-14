@@ -1,5 +1,5 @@
 # Windows-10-Reforged
-# Restoring Windows 10 to its former glory!
+Restoring Windows 10 to its former glory!
 # NB!Achtung! Attention!
 # The creator of this tutorial is not responsible if something will go wrong during install,but it is better than having Candy Crush and other bloat and telemetry hogging up system resources LOL!
 # This tutorial is meant for enthusiasts,tinkerers and gamers who want the most out of their system and are not affraid to take the risk of learning some new stuff in the process,it is not meant for old laptops to work properly to play solitaire,for that you can use awesome Linux distributions out there like Linux Mint,Solus or MX Linux! links below:
@@ -8,8 +8,6 @@
 * https://getsol.us/home/
 # Don't use this tutorial in a work environment its meant for personal/testing in a VM environment uses only!
 # Use this tutorial at your own risk! If something fails or crashes,try and try again!
-# It is the Windows 10 we want,not the Windows 10 we get!
-# This project falls under GPL license,no monetary gain was intended,so it is free to use,made with love for good old Windows 7/Windows XP days
 # Security updates will need to be installed manually if at all.
 # Use at your own risk and may the force be with you!
 
