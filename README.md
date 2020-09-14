@@ -13,7 +13,7 @@ Restoring Windows 10 to its former glory!
 
 # 0.Download all files from this repo.
 
-# 1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/:
+# 1.Download and install Windows 10 1809 LTSC build using Rufus https://rufus.ie/:
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
 
 # 2.Activate using a generic Windows key
