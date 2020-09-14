@@ -112,15 +112,39 @@ https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 * Run cmd as Admin 
 * DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs
 
-21. Remove the annoying Activate Windows Watermark:
-* Start menu>Run
+21. Removing the annoying Activate Windows Watermark:
+* Start menu>Run>regedit
 * HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > WindowsNT > CurrentVersion > SoftwareProtectionPlatform > Activation
-* Find the Manual entry Modify set 1 instead of 0
-# 22.Optional in case you need to download torrent files and magnet links use qbittorrent,its bloat and PUP free:
+* Find the Manual entry,modify value set 1 instead of 0
+# Another way:
+* Start menu>Run>regedit
+* Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sppsvc expand 
+* Find Start entry,modify value to 4
+# Eventually it might come back when Windows 10 will call home through Windows Defender Service(its glued in),so repeat the same steps
+
+22.Change Default Lock Screen background:
+* Start menu>Run>regedit
+* HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization
+* Add a New Entry on the right and call it LockScreenImage
+* Set Value of LockScreenImage to C:\Users\User\Pictures\image.jpg  
+
+# 23.Optional tools: 
+* in case you need to download torrent files and magnet links use qbittorrent,its bloat and PUP free:
 https://www.qbittorrent.org/
+* in case you need to control your fan speeds speedfan: 
+http://www.almico.com/speedfan.php
+* in case you want to find detailed GPU info GPU Z:
+https://www.techpowerup.com/gpuz/
+* in case you need full info on your system use speccy portable tool:
+https://www.ccleaner.com/speccy
+* in case you need advanced image manipulation tool GIMP is the best:
+https://www.gimp.org/
+* in case you need a stable and free video editor with advanced capabilities:
+https://www.shotcut.org/
+* for streaming and recording use original obs studio:
+https://obsproject.com/download
 
-Thats it we are good to go.Enjoy
-
+Thats it we are good to go.Enjoy!
 For other customization options check the guide that inspired this project:
 https://ameliorated.info/documentation.html#install
 
