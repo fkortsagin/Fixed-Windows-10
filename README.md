@@ -13,18 +13,18 @@ Restoring Windows 10 to its former glory!
 
 # 0.Download all files from this repo.
 
-# 1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/ or the one from here:
+# 1.Download and install Windows 10 LTSC build using Rufus https://rufus.ie/:
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
 
-2.Activate using a generic Windows key
-# GENERIC KMS KEYS FROM https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys:
+# 2.Activate using a generic Windows key
+* GENERIC KMS KEYS FROM https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys:
 
 * Windows 10 Enterprise LTSC 2019	
 * M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * Windows 10 Enterprise N LTSC 2019 
 * 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
 
-# 3.Use the commands below by running CMD as Admin to activate:
+# 3.Use the commands below by running CMD as Admin to activate(only needed to adjust taskbar settings without going into CLI/Registry lol):
 
 * slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * slmgr /skms  kms.moeclub.org
@@ -58,11 +58,12 @@ Restoring Windows 10 to its former glory!
 # 10.Once the script has finished, boot back into Windows to continue.
 
 # 11.Run the amelioration_2019-12-14.bat as Administrator and enable internet access.
-* Due to the deletion process, at this stage, Windows 10 lacks even basic software, such as a web browser or media player. 
+ 
+ * Due to the deletion process, at this stage, Windows 10 lacks even basic software, such as a web browser or media player. 
  * This process installs the chocolatey package manager and a selection of basic open source software.
 
 # 12.Select Option 2 Post-Amelioration from the main menu.
-# Optional 
+# Mostly optional once the script has completed running 
 * While most of these configurations are optional, we have tried to align classic-shell with sensible theming. These are the settings applied in the AME release.
 * Enable: Show all settings, go to the Skin tab:
 
