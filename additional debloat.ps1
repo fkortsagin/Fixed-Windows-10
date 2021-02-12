@@ -1,12 +1,4 @@
-If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
-{   
-#"No Administrative rights, it will display a popup window asking user for Admin rights"
-
-$arguments = "& '" + $myinvocation.mycommand.definition + "'"
-Start-Process "$psHome\powershell.exe" -Verb runAs -ArgumentList $arguments
-
-break
-}
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
 Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.DesktopAppInstaller_2018.720.2137.0_neutral_~_8wekyb3d8bbwe
 Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.HEIFImageExtension_1.0.11792.0_x64__8wekyb3d8bbwe
 Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.MicrosoftOfficeHub_2017.1219.520.0_neutral_~_8wekyb3d8bbwe
