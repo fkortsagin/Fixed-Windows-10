@@ -291,7 +291,8 @@ PowerShell -Command "Get-AppxPackage *ConnectivityStore* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.Messaging* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *ContentDeliveryManager* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.WindowsStore* | Remove-AppxPackage"
-
+PowerShell -Command "Get-AppxPackage *Spotify* | Remove-AppxPackage"
+PowerShell -Command "Get-AppxPackage *Edge* | Remove-AppxPackage"
 :: Disabling One Drive
 cls
 echo.
