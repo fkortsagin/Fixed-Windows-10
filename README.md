@@ -15,14 +15,18 @@ Restoring Windows 10 to its former glory!
 
 # 1.Download and install Windows 10 1809 LTSC build using Rufus https://rufus.ie/:
 * https://drive.google.com/drive/folders/14qKT9hBryNDwvEhw20CArjvs7bO5s9Ta?usp=sharing
+# Or a regular 1809/1909 from here:
+* https://tb.rg-adguard.net/public.php
 
 # 2.Activate using a generic Windows key
-* GENERIC KMS KEYS FROM https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys:
 
+* GENERIC KMS KEYS FROM https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys:
 * Windows 10 Enterprise LTSC 2019	
 * M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 * Windows 10 Enterprise N LTSC 2019 
 * 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+* Windows 10 Pro	
+* W269N-WFGWX-YVC9B-4J6C9-T83GX
 
 # 3.Use the commands below by running CMD as Admin to activate(only needed to adjust taskbar settings without going into CLI/Registry lol):
 
@@ -101,13 +105,15 @@ Restoring Windows 10 to its former glory!
 # 18.For Clean Driver install you will need:
 https://www.guru3d.com/files-details/display-driver-uninstaller-download.html
 
-# 19.FOR NVIDIA USERS Optimal NVIDIA Driver with Control Panel(not tied to Windows 10 Store)you need to select the Standard Version via advanced driver search and install it using DDU removing DCH!
-# Link to latest Standard Studio Driver 452.06:
+# 19.FOR NVIDIA USERS Optimal NVIDIA Driver with Control Panel(not tied to Windows 10 Store)you need to select the Standard Version via advanced driver search and install it  using DDU removing DCH!
+# Link To current Standard Studio Driver 461.40
+* https://www.nvidia.com/download/driverResults.aspx/170342/en-us
+# Link To older Standard Studio Driver 460.89
+* https://www.nvidia.com/download/driverResults.aspx/167759/en-us
+# Link to older Standard Studio Driver 452.06:
 * https://www.nvidia.com/download/driverResults.aspx/163246/en-us
-
 # Link to older stable Standard Studio Driver 442.92:
 * https://www.nvidia.com/download/driverResults.aspx/159677/en-us
-
 
 # 20 If you run into NET 3.5 Framework installation problem later on.Here are the steps:
 * Input your Windows 10 install media ISO via Windows or via USB to drive D for example.
@@ -147,7 +153,7 @@ https://www.shotcut.org/
 * for streaming and recording use original obs studio:
 https://obsproject.com/download
 
-# 24. (Optional) if using on non-LTSC 1809/1909 builds,run additional debloat.ps1 script as admin or just open it and run all the lines,line by line in PowerShell (this completely removes stuff like xbox/store)
+# 24. (Optional) if using on non-LTSC 1809/1909 builds,run additional debloat.ps1 script as Admin or just open it and run all the lines,line by line in PowerShell (this completely removes stuff like xbox/store)
 # If you want to list packages and remove them yourself or make your own script then run powershell as admin:
 * DISM /Online /Get-ProvisionedAppxPackages | select-string Packagename
 # Then run with the packages you get from the previous command (except for stuff like Calculator/MSPaint):
