@@ -16,7 +16,8 @@ Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.WebpImageExtension_
 Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.YourPhone_2018.727.2137.0_neutral_~_8wekyb3d8bbwe
 Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.WindowsCamera_2018.425.120.0_neutral_~_8wekyb3d8bbwe
 Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.XboxGamingOverlay_2.20.22001.0_neutral_~_8wekyb3d8bbwe
-
+Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.WebMediaExtensions_1.0.12341.0_neutral_~_8wekyb3d8bbwe
+Remove-ProvisionedAppxPackage -Online -PackageName Microsoft.Windows.Photos_2018.18051.21218.0_neutral_~_8wekyb3d8bbwe
 
 
 
