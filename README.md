@@ -164,6 +164,9 @@ https://obsproject.com/download
 * https://www.catalog.update.microsoft.com/Search.aspx?q=KB4586793
 # Download:
 * 2020-11 Cumulative Update for Windows 10 Version 1809 for x64-based Systems (KB4586793)
+
+# 25. Cleanup all udpates used in the installation process cmd as Admin:
+* DISM.exe /Online /Cleanup-Image /StartComponentCleanup
 # Thats it we are good to go.Enjoy!
 # Check out the AMEliorated project that inspired this Windows Reforged project,the only difference we used different approaches and builds! 
 # https://ameliorated.info/documentation.html#install
